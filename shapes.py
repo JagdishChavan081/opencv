@@ -3,7 +3,8 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('data/lena.jpg',1)
+#img = cv2.imread('data/lena.jpg',1)
+img = np.zeros([512, 512, 3], np.uint8)
 
 #line
 img = cv2.line(img, (0,0),(255,255),(0,0,255),10)
